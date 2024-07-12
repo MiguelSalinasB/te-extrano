@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+body {
+    font-family: "Satisfy", cursive;
+    background-image: url('./Imagenes/hearts-5947464_1920.png'); /* Reemplaza con la ruta de tu imagen de fondo */
+    background-size: auto;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    color: black; /* Color del texto */
+    padding: 20px;
+    position: relative; /* Posición relativa para posicionar el contenido */
+    top: 600px; /* Mover el contenido hacia abajo */
+    max-width: 80%; /* Ancho máximo del contenedor */
+    margin: auto; /* Centrar el contenedor horizontalmente */
+}
+
+.container h1 {
+    font-size: 1.375em;
+    margin-bottom: 20px; /* Espacio entre h1 y p */
+}
+
+.container h2 {
+    font-size: 1.375em;
+    margin-top: 10px; /* Espacio encima del p */
+}
+
+.container p {
+    font-size: 1.375em;
+    margin-top: 5px; /* Espacio encima del p */
+}
+
+.container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 10px; /* Espacio encima de la segunda imagen */
+}
+
+.audio {
+    display: flex;
+    justify-content: center;
+    margin-top:  20px; /* Espacio adicional desde el contenedor principal */
+}
+
+@media (max-width: 820px) {
+    .container {
+        padding: 10px; /* Reducir el padding */
+    }
+
+    .container h1 {
+        font-size: 1.375em; /* Reducir tamaño de fuente del título */
+    }
+
+    .container p {
+        font-size: 1.375em; /* Reducir tamaño de fuente del párrafo */
+    }
+
+}
+
+@media (max-width: 410px) {
+    .container {
+        padding: 10px; /* Reducir el padding */
+    }
+
+    .container h1 {
+        font-size: 1,375em; /* Reducir tamaño de fuente del título */
+    }
+
+    .container p {
+        font-size: 1.375em; /* Reducir tamaño de fuente del párrafo */
+    }
+}
